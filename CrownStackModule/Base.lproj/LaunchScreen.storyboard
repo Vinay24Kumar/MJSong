@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="musicIcon" translatesAutoresizingMaskIntoConstraints="NO" id="6gC-Cn-AGh">
+                                <rect key="frame" x="132" y="373" width="150" height="150"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6gC-Cn-AGh" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="F4n-BL-kWj"/>
+                            <constraint firstItem="6gC-Cn-AGh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Tw1-ff-PED"/>
+                            <constraint firstItem="6gC-Cn-AGh" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.362319" id="Uyk-Y5-jRP"/>
+                            <constraint firstItem="6gC-Cn-AGh" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.167411" id="g2e-aI-exQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="musicIcon" width="512" height="512"/>
+    </resources>
+</document>
